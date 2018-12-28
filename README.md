@@ -9,3 +9,4 @@ Here is my solution to copy all CCC Congress Media files from the Congress
 6. Now every half hour the script was executed and the Files will be Downloaded.
 
 Attention: Use a time in the cronjob for your download Speed!
+Link to my temporary Mirror with this Script: http://159.69.202.86/35c3/ 
