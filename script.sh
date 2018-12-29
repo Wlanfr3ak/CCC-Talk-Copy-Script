@@ -17,4 +17,18 @@ curl https://media.ccc.de/c/35c3/podcast/mp4-lq.xml | awk -F '"' '/url="/{print 
 #WebM 576p with all audio tracks (including translations) and slides as secondary video track – about 80? GiB:
 curl https://media.ccc.de/c/35c3/podcast/webm-lq.xml | awk -F '"' '/url="/{print $2}' | wget -c -i -
 
+# Added Special Halls
+curl https://media.ccc.de/c/35c3-wikipakawg/podcast/mp4-master.xml | awk -F '"' '/url="/{print $2}' | wget -c -i -
+curl https://media.ccc.de/c/35c3-wikipakawg/podcast/mp4.xml | awk -F '"' '/url="/{print $2}' | wget -c -i -
+curl https://media.ccc.de/c/35c3-wikipakawg/podcast/webm.xml | awk -F '"' '/url="/{print $2}' | wget -c -i -
+curl https://media.ccc.de/c/35c3-wikipakawg/podcast/mp4-lq.xml | awk -F '"' '/url="/{print $2}' | wget -c -i -
+curl https://media.ccc.de/c/35c3-wikipakawg/podcast/webm-lq.xml | awk -F '"' '/url="/{print $2}' | wget -c -i -
+curl https://media.ccc.de/c/35C3-chaoswest/podcast/mp4-master.xml | awk -F '"' '/url="/{print $2}' | wget -c -i -
+curl https://media.ccc.de/c/35C3-chaoswest/podcast/mp4.xml | awk -F '"' '/url="/{print $2}' | wget -c -i -
+curl https://media.ccc.de/c/35C3-chaoswest/podcast/webm.xml | awk -F '"' '/url="/{print $2}' | wget -c -i -
+curl https://media.ccc.de/c/35C3-chaoswest/podcast/mp4-lq.xml | awk -F '"' '/url="/{print $2}' | wget -c -i -
+curl https://media.ccc.de/c/35C3-chaoswest/podcast/webm-lq.xml | awk -F '"' '/url="/{print $2}' | wget -c -i -
+
+
+
 # https://events.ccc.de/congress/2018/wiki/index.php/Static:Streams#Downloads 
